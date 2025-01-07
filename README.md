@@ -140,7 +140,7 @@ Optimize API calls to reduce latency.
 Implement server-side rendering (SSR) for faster initial page loads.
 Introduce image compression for faster media loading.
 Contact
-For any questions or support, feel free to open an issue on GitHub or contact us at support@yourdomain.com.
+For any questions or support, feel free to open an issue on GitHub or contact us at support@ravishekhar22.com.
 
 This Social Media for Movie Enthusiasts project is built with passion for movies and a desire to foster connections between fans across the world. Join us, and let's make movie discussions even more exciting! 🎬🍿
 
