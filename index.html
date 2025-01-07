@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewable Energy Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header>
+        <h1>Movie Social Network</h1>
+      </header>
+      <div class="container">
+        <section>
+          <h2>Register</h2>
+          <input type="text" id="register-username" placeholder="Username">
+          <input type="password" id="register-password" placeholder="Password">
+          <button onclick="registerUser()">Register</button>
+        </section>
+    
+        <section>
+          <h2>Login</h2>
+          <input type="text" id="login-username" placeholder="Username">
+          <input type="password" id="login-password" placeholder="Password">
+          <button onclick="loginUser()">Login</button>
+        </section>
+    
+        <section>
+          <h2>Post Review</h2>
+          <input type="text" id="movie-name" placeholder="Movie Name">
+          <textarea id="movie-review" placeholder="Your Review"></textarea>
+          <input type="number" id="movie-rating" min="1" max="5" placeholder="Rating (1-5)">
+          <button onclick="postReview()">Post Review</button>
+        </section>
+    
+        <section>
+          <h2>All Reviews</h2>
+          <div id="reviews"></div>
+        </section>
+      </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min"></script>
+    <script src="script.js"></script>
+</body>
+</html>
